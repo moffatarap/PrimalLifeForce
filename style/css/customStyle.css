@@ -1,0 +1,98 @@
+﻿/******* PRIMAL LIFE FORCE CSS *******/
+/* TAGS */
+body {
+    background-image:url(bg.jpg); /*File has to be in CSS FOLDER*/
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    background-attachment:fixed;
+    height:auto;
+    width:100%;
+    position:relative;
+    overflow:hidden;
+}
+
+p { font-family: Oswald, sans-serif;
+    color:#ffffff;
+    font-size:30px;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+footer p {
+    font-size:15px;
+    text-align:right;
+    margin-right:1%;
+    position:relative;
+    margin-top:7%;
+}
+
+a:link {
+    color:#ffffff;
+    text-decoration:none;
+}
+
+a:link:hover {
+        text-decoration:underline;
+        color:#00ff90;
+    } 
+
+/*= CLASSES =*/
+.mainDiv {
+    position:relative;
+    height:100%;
+    width:auto;
+    overflow:hidden;
+    z-index:-1;  
+}
+
+.topLevel {
+    position:relative;
+    z-index:1;
+    margin-top:10%;
+    text-align:center;
+    height:auto;
+    width:100%;
+
+    /* border:2px solid #b6ff00  ;  GREEN */
+}
+
+
+.textContent {
+    position:relative;
+    z-index:2;
+    margin-top:2%;
+    text-align:center;
+    height:auto;
+    width:100%;
+
+    /* border: 2px dashed #ff0000;  RED */
+}
+
+/*== ID ==*/
+
+/** IMG BG **/
+#imgMain {
+   width:100%;
+   position:relative;
+  
+}
+
+#logoIMG {
+    width:40%;
+    height:auto;
+    text-align:center; 
+    position:relative;  
+}
+/* MAKES LARGER ON HOVER 
+#logoIMG:hover {
+    animation-name: ease;
+    animation-duration: 4s;
+    width:50%;
+    height:auto;
+}*/
+
+/* #logoIMG:hover {
+    width:110%;
+    text-align:center;
+    }
+*/
