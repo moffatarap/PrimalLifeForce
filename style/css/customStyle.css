@@ -40,7 +40,12 @@ footer h6 {
 }
 
 a:link {
-    color:#ffffff;
+    color:#83cae8;
+    text-decoration:none;
+}
+
+span {
+    color:#83cae8;
     text-decoration:none;
 }
 
