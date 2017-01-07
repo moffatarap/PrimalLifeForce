@@ -9,14 +9,21 @@ body {
     height:auto;
     width:100%;
     position:relative;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    overflow:scroll;
+    overflow:hidden;
 }
 
-h1 { font-family: Oswald, sans-serif;
+article {
+    overflow:scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position:relative;
+ }
+
+h1 { 
+    font-family: Oswald, sans-serif;
     color:#ffffff;
     text-shadow: 2px 2px 5px #000000;
+    -webkit-font-smoothing: antialiased;
 }
 
 h6 {
@@ -126,7 +133,8 @@ display: none;
 @media screen and (min-width: 1024px) {
 
     h1 {
-        font-size:2.5em;
+        /* */
+        font-size:3.2em;
         line-height:1.6em;
         
     }
@@ -136,14 +144,23 @@ display: none;
 
 /*===== TABLET PORTRATE =====*/
 @media screen and (min-width: 600px) {
-      h1 {
-        
+    /* 
+     h1 {
+        font-size:2.4em;
+        line-height:1.4em;        
     }
+    */
 
 }
 
 /*===== TABLET LANDSCAPE =====*/
 @media screen and (min-width: 768px) {
+    /*  
+    h1 {
+        font-size:2.6em;
+        line-height:1.5em;        
+    }
+    */
 
 }
 
