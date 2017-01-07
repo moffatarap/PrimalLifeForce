@@ -9,18 +9,23 @@ body {
     height:auto;
     width:100%;
     position:relative;
-    overflow:hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow:scroll;
 }
 
-p { font-family: Oswald, sans-serif;
+h1 { font-family: Oswald, sans-serif;
     color:#ffffff;
-    font-size:30px;
-    font-size:2.2vw;
     text-shadow: 2px 2px 5px #000000;
 }
 
-footer p {
-    font-size:15px;
+h6 {
+    font-family: Oswald, sans-serif;
+    color:#ffffff;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+footer h6 {
     text-align:right;
     margin-right:1%;
     position:relative;
@@ -98,21 +103,60 @@ a:link:hover {
     }
 */
 
-/* #5 MEDIA QUERY */
+/* #5 WEBKIT */
+/*  HIDES SCROLL BAR ON CHROME */
+
+::-webkit-scrollbar {
+display: none;
+} 
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+/* #6 MEDIA QUERY */
 
 /*====== DESKTOP ======*/
-@media screen and (min-width: 1345px) {
+@media screen and (min-width: 1024px) {
+
+    h1 {
+        font-size:2.5em;
+        line-height:1.6em;
+        
+    }
 
 
 }
 
-/*===== TABLET =====*/
-@media screen and (max-width: 1344px) {
+/*===== TABLET PORTRATE =====*/
+@media screen and (min-width: 600px) {
+      h1 {
+        
+    }
+
+}
+
+/*===== TABLET LANDSCAPE =====*/
+@media screen and (min-width: 768px) {
 
 }
 
 /*===== MOBILE =====*/
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 480px) {
 
 
 }
+
+min-width: px: Will target mobile devices in landscape mode and up
+
+min-width: px: Targets tablets in portrait mode and up
+
+min-width: px: Targets tablets in landscape mode and up
+
+min-width: px: Targets the desktop view
