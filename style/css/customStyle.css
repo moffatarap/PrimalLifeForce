@@ -9,7 +9,7 @@ body {
     height:auto;
     width:100%;
     position:relative;
-    overflow:hidden;
+    overflow:scroll;
 
     /* */
     border:2px dashed orange;
@@ -30,6 +30,10 @@ h1 {
     color:#ffffff;
     text-shadow: 2px 2px 5px #000000;
     -webkit-font-smoothing: antialiased;
+}
+
+iframe {
+    
 }
 
 h6 {
@@ -61,10 +65,12 @@ a:link:hover {
     } 
 
 /*= #2 CLASSES =*/
+
+/* #2.1 */
 .topLevel {
     position:relative;
     z-index:1;
-    margin-top:10%;
+    margin-top:1%;
     text-align:center;
     height:auto;
     width:100%;
@@ -73,19 +79,33 @@ a:link:hover {
     border:2px solid #b6ff00 ;  /* GREEN */
 }
 
+/* #2.2 */
+.videoContain {
+    position:relative;
+    z-index:3;
+    margin-top:2%;
+    text-align:center;
+    height:640px;
+    width:auto;
 
+    /* */
+    border:2px dashed #b6ff00; /* GREEN */
+}
+
+/* #2.3 */
 .textContent {
     position:relative;
-    z-index:2;
+    z-index:3;
     margin-top:2%;
     text-align:center;
     height:auto;
     width:100%;
 
     /* */
-    border: 2px dashed #ff0000;  /* RED */ 
-    
+    border: 2px dashed #ff0000;  /* RED */     
 }
+
+
 
 /*== #4 ID ==*/
 
@@ -112,6 +132,15 @@ a:link:hover {
     text-align:center;
     }
 */
+
+#mainVideo{
+    position:relative;
+    width:100%;
+    height:100%;
+    text-align:center; 
+
+
+}
 
 /* #5 WEBKIT */
 /*  HIDES SCROLL BAR ON CHROME */
@@ -149,7 +178,7 @@ display: none;
 
 /*===== TABLET PORTRATE =====*/
 @media screen and (min-width: 600px) {
-    /* */
+    /* 
      h1 {
         font-size:2em;
         line-height:1.3em;        
@@ -159,24 +188,29 @@ display: none;
         width:81%;
         height:auto;
     }
-
+    */
 }
 
 /*===== TABLET LANDSCAPE =====*/
 @media screen and (min-width: 768px) {
-    /*  */
+    /*  
     h1 {
         font-size:2.3em;
         line-height:1.3em;        
     }
-    
+
+    #logoIMG {
+        width:75%;
+        height:auto;
+    }
+    */
     
 
 }
 
 /*===== MOBILE =====*/
 @media screen and (min-width: 320px) {
-    /*  */  
+    /*   
     h1 {
         font-size:1.5em;
         line-height:1.3em;        
@@ -186,7 +220,7 @@ display: none;
         width:85%; 
         height:auto;
     }
-      
+     */  
 
 }
 
