@@ -71,7 +71,8 @@ a:link:hover {
     height:auto;
     width:100%;
 
-    /* border:2px solid #b6ff00  ;  GREEN */
+    /* */
+    border:2px solid #b6ff00 ;  /* GREEN */
 }
 
 
@@ -83,23 +84,22 @@ a:link:hover {
     height:auto;
     width:100%;
 
-    /* border: 2px dashed #ff0000;  RED */
+    /* */
+    border: 2px dashed #ff0000;  /* RED */ 
+    
 }
 
 /*== #4 ID ==*/
 
-/** IMG BG **/
-#imgMain {
-   width:100%;
-   position:relative;
-  
-}
-
+/** IMG LOGO **/
 #logoIMG {
     width:60%;
     height:auto;
     text-align:center; 
     position:relative;  
+    
+    /**/
+    border: 2px solid blue;
 }
 /* MAKES LARGER ON HOVER 
 #logoIMG:hover {
@@ -140,11 +140,15 @@ display: none;
     h1 {
         /* */
         font-size:2.6em;
-        line-height:1.4em;
-        
+        line-height:1.4em;        
     }
 
-
+    #logoIMG {
+        width:68%;
+        height:auto;
+        text-align:center; 
+        position:relative;
+    }
 }
 
 /*===== TABLET PORTRATE =====*/
