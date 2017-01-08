@@ -11,8 +11,8 @@ body {
     position:relative;
     overflow:scroll;
 
-    /* 
-    border:2px dashed orange; */
+    /* */
+    border:2px dashed orange;
 }
 
 article {
@@ -21,8 +21,8 @@ article {
     overflow-x: hidden;
     position:relative;
 
-    /* 
-    border:2px solid pink; */
+    /* */
+    border:2px solid pink;
  }
 
 h1 { 
@@ -76,7 +76,7 @@ a:link:hover {
     width:100%;
 
     /* */
-   /* border:2px solid #b6ff00 ;   GREEN */
+    border:2px solid #b6ff00 ;  /* GREEN */
 }
 
 /* #2.2 */
@@ -89,7 +89,7 @@ a:link:hover {
     width:auto;
 
     /* */
-   /* border:2px dashed #b6ff00;  GREEN */
+    border:2px dashed #b6ff00; /* GREEN */
 }
 
 /* #2.3 */
@@ -102,7 +102,7 @@ a:link:hover {
     width:100%;
 
     /* */
-     /*border: 2px dashed #ff0000;  RED */     
+    border: 2px dashed #ff0000;  /* RED */     
 }
 
 
@@ -115,8 +115,8 @@ a:link:hover {
     text-align:center; 
     position:relative; 
         
-    /*
-    border: 2px solid blue;*/
+    /**/
+    border: 2px solid blue;
 }
 /* MAKES LARGER ON HOVER 
 #logoIMG:hover {
