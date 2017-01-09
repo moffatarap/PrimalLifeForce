@@ -29,6 +29,8 @@ article {
 h1 { 
     font-family: Oswald, sans-serif;
     color:#ffffff;
+    font-size:2.2em;
+    line-height:1.4em;  
     text-shadow: 2px 2px 5px #000000;
     -webkit-font-smoothing: antialiased;
 }
@@ -112,7 +114,7 @@ a:link:hover {
 
 /** IMG LOGO **/
 #logoIMG {
-    width:60%;
+    width:78%;
     height:auto;
     text-align:center; 
     position:relative; 
@@ -184,7 +186,7 @@ display: none;
 
 }
 
-/*===== TABLET PORTRATE =====*/  /**/ 
+/*===== TABLET PORTRATE =====*/
 @media screen and (max-width: 768px) and (orientation: portrait) {
     
      h1 {
