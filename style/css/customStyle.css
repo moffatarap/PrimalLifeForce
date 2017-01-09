@@ -261,7 +261,7 @@ display: none;
 }
 
 /* APPLE 6s */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) and (orientation: portrait){
     
     h1 {
         font-size:1.4em;
@@ -269,7 +269,7 @@ display: none;
     }
 
     #logoIMG {
-        width:95%; 
+        width:98%; 
         height:auto;
     }
 
