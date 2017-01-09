@@ -163,12 +163,12 @@ display: none;
 /* #6 MEDIA QUERY */
 
 /*====== DESKTOP ======*/
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
 
     h1 {
         /* */
         font-size:2.6em;
-        line-height:1.4em;        
+        line-height:1.4em;         
     }
 
     #logoIMG {
@@ -184,9 +184,9 @@ display: none;
 
 }
 
-/*===== TABLET PORTRATE =====*/
-@media screen and (max-height: 1024px) {
-    /*  */
+/*===== TABLET PORTRATE =====*/  /**/ 
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    
      h1 {
         font-size:2em;
         line-height:1.3em;        
@@ -201,16 +201,16 @@ display: none;
         margin-top:8%;
     }
 
-     /*  */
+     
 
     h6{
-        color:yellow; /* TABLET LANDSCAPE*/
+        color:yellow;
     }
    
 }
 
 /*===== TABLET LANDSCAPE =====*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) and (orientation: landscape) {
    
     h1 {
         font-size:2em;
@@ -236,7 +236,7 @@ display: none;
 }
 
 /*===== MOBILE =====*/
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) and (orientation: portrait) {
     
     h1 {
         font-size:1.5em;
