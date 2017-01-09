@@ -2,7 +2,6 @@
 /* #1 TAGS */
 body {
     background-color:#009ee1;
-   /* background-image:url(bg.jpg); File has to be in CSS FOLDER*/
     background-repeat:no-repeat;
     background-position:center center;
     background-size:cover;
@@ -297,7 +296,7 @@ display: none;
     }
 
     h2 {
-        font-size:0.8em;
+        font-size:0.9em;
     }
 
     #logoIMG {
