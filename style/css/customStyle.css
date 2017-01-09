@@ -65,18 +65,23 @@ footer h6 {
 }
 
 a:link {
-    color:#83cae8;
+    color:#a1e2fd;
     text-decoration:none;
 }
 
 span {
-    color:#83cae8;
+    color:#a1e2fd;
     text-decoration:none;
+}
+
+span:hover {
+    color:#fbb23e;
 }
 
 a:link:hover {
         text-decoration:underline;
-        color:#00ff90;
+        color:#fbb23e;
+        
     } 
 
 /*= #2 CLASSES =*/
