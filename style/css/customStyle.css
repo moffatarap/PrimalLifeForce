@@ -33,8 +33,18 @@ h1 {
     font-size:2.2em;
     line-height:1.4em;  
        
-    text-shadow: 2px 2px 5px #000000;
+    /* text-shadow: 2px 2px 5px #000000;*/
     -webkit-font-smoothing: antialiased;
+    
+}
+
+h2 {
+    font-family: Oswald, sans-serif;
+    color:#ffffff;
+    font-size:1.5em;
+    /* text-shadow: 1px 1px 4px #000000; */
+    -webkit-font-smoothing: antialiased;
+    text-align:center;
 }
 
 iframe {
@@ -44,7 +54,7 @@ iframe {
 h6 {
     font-family: Oswald, sans-serif;
     color:#ffffff;
-    text-shadow: 2px 2px 5px #000000;
+    /* text-shadow: 2px 2px 5px #000000; */ 
 }
 
 footer h6 {

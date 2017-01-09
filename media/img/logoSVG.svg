@@ -9,9 +9,9 @@
 		1.594,813 0.223,0 2097.223,0 	"/>
 </g>
 <g id="logoOuter">
-	
+	<!-- [DISABLED DROP SHADOW]
 				<image overflow="visible" opacity="0.75" width="4532" height="1512" xlink:href="FAACE750.png"  transform="matrix(0.48 0 0 0.48 -25.7446 -15.3154)">
-	</image>
+	</image> -->
 	<g>
 		<g>
 			<polygon fill="#FFFFFF" points="125.98,134.896 140.654,129.937 149.748,132.83 			"/>
@@ -93,9 +93,9 @@
 		c0,0,2.172,9.501,0.679,13.574s-5.022,13.981-6.787,15.067s1.629-9.094,1.493-12.216S1338.916,179.163,1338.916,179.163z"/>
 </g>
 <g id="logoSubText">
-	
+  <!-- [DISABLED DROP SHADOW] 
 		<image overflow="visible" opacity="0.75" width="2254" height="546" xlink:href="FAACE751.png"  transform="matrix(0.48 0 0 0.48 481.4585 570.2642)">
-	</image>
+	</image> -->
 	<g>
 		<g>
 			<polygon fill="#FFFFFF" points="540.471,620.264 529.458,629.047 545.523,713.79 558.777,758.37 580.464,754.755 
