@@ -32,6 +32,7 @@ h1 {
     color:#ffffff;
     font-size:2.2em;
     line-height:1.4em;  
+       
     text-shadow: 2px 2px 5px #000000;
     -webkit-font-smoothing: antialiased;
 }
@@ -121,7 +122,7 @@ a:link:hover {
     position:relative; 
         
     /*
-    border: 2px solid blue; /*
+    border: 2px solid blue; */
 }
 /* MAKES LARGER ON HOVER 
 #logoIMG:hover {
@@ -137,7 +138,7 @@ a:link:hover {
     }
 */
 
-#mainVideo{
+#mainVideo {
     position:relative;
     width:100%;
     height:100%;
@@ -169,7 +170,6 @@ display: none;
 @media screen and (min-width: 1024px) {
 
     h1 {
-        /* */
         font-size:2.6em;
         line-height:1.4em;         
     }
@@ -179,15 +179,14 @@ display: none;
         height:auto;
     }
 
-     /*  */
-
-    h6{
+     h6{
         color:blue;
     }
 
 }
 
 /*===== TABLET PORTRATE =====*/
+/* Apple Air 2 */
 @media screen and (max-width: 768px) and (orientation: portrait) {
     
      h1 {
@@ -213,6 +212,7 @@ display: none;
 }
 
 /*===== TABLET LANDSCAPE =====*/
+/* Apple Air 2 */
 @media screen and (max-width: 1024px) and (orientation: landscape) {
    
     h1 {
@@ -232,18 +232,40 @@ display: none;
     
 
     h6{
-        color:red; /* TABLET LANDSCAPE*/
+        color:red;
     }
     
 
 }
 
 /*===== MOBILE =====*/
+/* Nexus 7 */
 @media screen and (max-width: 640px) and (orientation: portrait) {
     
     h1 {
         font-size:1.5em;
         line-height:1.3em;        
+    }
+
+    #logoIMG {
+        width:95%; 
+        height:auto;
+    }
+
+   
+    h6{
+        color:orange; 
+    }
+     
+
+}
+
+/* APPLE 6s */
+@media screen and (max-width: 400px) {
+    
+    h1 {
+        font-size:1.4em;
+        line-height:1.2em;        
     }
 
     #logoIMG {
@@ -258,6 +280,8 @@ display: none;
      
 
 }
+
+
 
 
 
