@@ -20,3 +20,28 @@ Disallow: /media
 User-agent: Mediapartners-Google*
 Disallow:
 Allow: /*
+
+# Google Mobile
+User-agent: Googlebot-Mobile
+Disallow:
+Allow: /*
+
+# Google BOT
+User-agent: Googlebot
+Disallow:
+Allow: /*
+
+# BING BOT
+User-agent: bingbot
+Disallow:
+Allow: /*
+
+# BING BOT
+User-agent: msnbot
+Disallow:
+Allow: /*
+
+# Bing  Images & Video
+User-agent: msnbot-media
+Disallow: /media
+Allow: /*
