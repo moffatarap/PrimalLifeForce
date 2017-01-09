@@ -1,4 +1,4 @@
-﻿/******* PRIMAL LIFE FORCE CSS *******/
+/******* PRIMAL LIFE FORCE CSS *******/
 /* #1 TAGS */
 body {
     background-image:url(bg.jpg); /*File has to be in CSS FOLDER*/
@@ -6,6 +6,7 @@ body {
     background-position:center center;
     background-size:cover;
     background-attachment:fixed;
+    background-size:cover;
     height:auto;
     width:100%;
     position:relative;
@@ -70,7 +71,7 @@ a:link:hover {
 .topLevel {
     position:relative;
     z-index:1;
-    margin-top:1%;
+    margin-top:2.5%;
     text-align:center;
     height:auto;
     width:100%;
@@ -174,11 +175,13 @@ display: none;
         width:68%;
         height:auto;
     }
+
+
 }
 
 /*===== TABLET PORTRATE =====*/
 @media screen and (min-width: 600px) {
-    /* 
+    /*  */
      h1 {
         font-size:2em;
         line-height:1.3em;        
@@ -188,12 +191,12 @@ display: none;
         width:81%;
         height:auto;
     }
-    */
+   
 }
 
 /*===== TABLET LANDSCAPE =====*/
 @media screen and (min-width: 768px) {
-    /*  
+    /*  */
     h1 {
         font-size:2.3em;
         line-height:1.3em;        
@@ -203,14 +206,14 @@ display: none;
         width:75%;
         height:auto;
     }
-    */
+    
     
 
 }
 
 /*===== MOBILE =====*/
 @media screen and (min-width: 320px) {
-    /*   
+    /*   */  
     h1 {
         font-size:1.5em;
         line-height:1.3em;        
@@ -220,7 +223,7 @@ display: none;
         width:85%; 
         height:auto;
     }
-     */  
+     
 
 }
 
