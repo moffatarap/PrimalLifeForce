@@ -163,7 +163,7 @@ display: none;
 /* #6 MEDIA QUERY */
 
 /*====== DESKTOP ======*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 
     h1 {
         /* */
@@ -172,15 +172,20 @@ display: none;
     }
 
     #logoIMG {
-        width:68%;
+        width:78%;
         height:auto;
     }
 
+     /*  */
+
+    h6{
+        color:blue; /* DESKTOP */
+    }
 
 }
 
 /*===== TABLET PORTRATE =====*/
-@media screen and (min-width: 320px) {
+@media screen and (max-height: 1024px) {
     /*  */
      h1 {
         font-size:2em;
@@ -188,27 +193,43 @@ display: none;
     }
     
     #logoIMG {
-        width:81%;
+        width:91%;
         height:auto;
+    }
+
+    .topLevel {
+        margin-top:8%;
+    }
+
+     /*  */
+
+    h6{
+        color:yellow; /* TABLET LANDSCAPE*/
     }
    
 }
 
 /*===== TABLET LANDSCAPE =====*/
-@media screen and (min-width: 768px) {
-    /*  */
+@media screen and (max-width: 768px) {
+   
     h1 {
-        font-size:2.3em;
+        font-size:2em;
         line-height:1.3em;        
     }
 
     #logoIMG {
-        width:75%;
+        width:85%;
         height:auto;
     }
 
     .topLevel {
         margin-top:9%;
+    }
+
+    
+
+    h6{
+        color:red; /* TABLET LANDSCAPE*/
     }
     
 
@@ -216,17 +237,24 @@ display: none;
 
 /*===== MOBILE =====*/
 @media screen and (max-width: 640px) {
-    /*   */  
+    
     h1 {
         font-size:1.5em;
         line-height:1.3em;        
     }
 
     #logoIMG {
-        width:85%; 
+        width:95%; 
         height:auto;
+    }
+
+    /*   */  
+    h6{
+        color:orange; /* MOBILE */
     }
      
 
 }
+
+
 
