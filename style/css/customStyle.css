@@ -180,7 +180,7 @@ display: none;
 }
 
 /*===== TABLET PORTRATE =====*/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 320px) {
     /*  */
      h1 {
         font-size:2em;
@@ -206,13 +206,16 @@ display: none;
         width:75%;
         height:auto;
     }
-    
+
+    .topLevel {
+        margin-top:9%;
+    }
     
 
 }
 
 /*===== MOBILE =====*/
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 640px) {
     /*   */  
     h1 {
         font-size:1.5em;
