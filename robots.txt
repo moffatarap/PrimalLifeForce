@@ -1,0 +1,22 @@
+User-agent: *
+
+Disallow: /cgi-bin/
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /media/
+Disallow: /style/
+Disallow: /primallifeforce.com/
+
+host: primallifeforce.com
+crawl-delay: 10
+
+
+# Google Image
+User-agent: Googlebot-Image
+Disallow: /media
+
+
+# Google AdSense
+User-agent: Mediapartners-Google*
+Disallow:
+Allow: /*
