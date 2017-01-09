@@ -2,7 +2,7 @@
 /* #1 TAGS */
 body {
     background-color:#009ee1;
-    background-image:url(bg.jpg); /*File has to be in CSS FOLDER*/
+   /* background-image:url(bg.jpg); File has to be in CSS FOLDER*/
     background-repeat:no-repeat;
     background-position:center center;
     background-size:cover;
@@ -54,12 +54,12 @@ footer h6 {
 }
 
 a:link {
-    color:#009ee1;
+    color:#83cae8;
     text-decoration:none;
 }
 
 span {
-    color:#009ee1;
+    color:#83cae8;
     text-decoration:none;
 }
 
@@ -121,7 +121,7 @@ a:link:hover {
     position:relative; 
         
     /*
-    border: 2px solid blue; */
+    border: 2px solid blue; /*
 }
 /* MAKES LARGER ON HOVER 
 #logoIMG:hover {
