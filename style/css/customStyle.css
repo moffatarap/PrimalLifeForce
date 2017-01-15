@@ -246,6 +246,14 @@ a:link:hover {
     height:auto;
 }
 
+tr {
+    border:1px solid green;
+}
+
+td {
+    border:1px solid yellow;
+}
+
 /* #5 WEBKIT */
 /*  HIDES SCROLL BAR ON CHROME */
 
