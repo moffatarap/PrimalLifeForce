@@ -28,6 +28,7 @@ article {
 
 h1 { 
     font-family: Oswald, sans-serif;
+    font-weight:400;
     color:#ffffff;
     font-size:2.2em;
     line-height:1.4em; 
@@ -37,6 +38,7 @@ h1 {
 
 h2 {
     font-family: Oswald, sans-serif;
+    font-weight:400;
     color:#ffffff;
     font-size:2em;
    -webkit-font-smoothing: antialiased;
@@ -45,6 +47,7 @@ h2 {
 
 h6 {
     font-family: Oswald, sans-serif;
+    font-weight:400;
     color:#ffffff;
     
 }
@@ -57,7 +60,8 @@ footer h6 {
 }
 
 p {
-    font-family: Oswald, sans-serif;
+    font-family: Raleway, sans-serif;
+    font-weight:600;
     color:#ffffff;
     font-size:1.3em;
    -webkit-font-smoothing: antialiased;
