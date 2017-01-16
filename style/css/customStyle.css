@@ -117,6 +117,19 @@ a:link:hover {
 
 /*= #2 CLASSES =*/
 
+/* 2.0 */
+.contactInfo {
+    float:right;
+    position:relative;
+    margin-right:4%;
+    width:20%;
+    
+    /**/
+    border: 2px solid yellow;
+
+
+}
+
 /* #2.1 */
 .topLevel {
     position:relative;
