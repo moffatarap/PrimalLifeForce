@@ -82,6 +82,7 @@ p {
     font-weight:600;
     color:#ffffff;
     font-size:1.3em;
+    padding:0.5%;
    -webkit-font-smoothing: antialiased;
 }
 
@@ -333,6 +334,10 @@ display: none;
         font-size:2em;
     }
 
+    .textSubheader h1 {
+        font-size:2em;
+    }
+
     #logoIMG {
         width:78%;
         height:auto;
@@ -356,6 +361,15 @@ display: none;
    h2 {
         font-size:1.4em;
     }
+
+   .textSubheader h1 {
+        font-size:1.4em;
+    }
+
+   p {
+        font-size:1em;
+
+   }
 
     #logoIMG {
         width:91%;
@@ -384,6 +398,10 @@ display: none;
     }
 
     h2 {
+        font-size:1.4em;
+    }
+
+    .textSubheader h1 {
         font-size:1.4em;
     }
 
@@ -418,6 +436,10 @@ display: none;
         font-size:1.1em;
     }
 
+    .textSubheader h1 {
+        font-size:1.1em;
+    }
+
     #logoIMG {
         width:95%; 
         height:auto;
@@ -440,6 +462,10 @@ display: none;
     }
 
     h2 {
+        font-size:0.9em;
+    }
+
+    .textSubheader h1 {
         font-size:0.9em;
     }
 
