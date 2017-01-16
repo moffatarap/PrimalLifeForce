@@ -45,6 +45,16 @@ h2 {
     text-align:center;
 }
 
+h3 {
+    font-family: Oswald, sans-serif;
+    font-weight:400;
+    color:#ffffff;
+    font-size:1.5em;
+   -webkit-font-smoothing: antialiased;
+    text-align:center;
+
+}
+
 h6 {
     font-family: Oswald, sans-serif;
     font-weight:400;
@@ -70,6 +80,18 @@ p {
 iframe {
     
 }
+/* 
+td {
+    padding:0px;
+    margin:0px;
+    }
+
+tr {
+    padding:0px;
+    margin:0px;
+}
+
+*/
 
 
 
@@ -162,6 +184,16 @@ a:link:hover {
 }
 
 /* #2.3 */
+.testimonials {
+    width:49%;
+    height:auto;
+    display:inline-table;
+
+    /**/
+    border:2px solid purple;
+}
+
+/* #2.4 */
 .textContent {
     position:relative;
     z-index:3;
