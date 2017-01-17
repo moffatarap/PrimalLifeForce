@@ -108,6 +108,10 @@ a:link {
     text-decoration:none;
 }
 
+a:visited {
+    color:#a1e2fd;
+}
+
 span {
     color:#a1e2fd;
     text-decoration:none;
@@ -320,11 +324,6 @@ display: none;
         width:91%;
         height:auto;
     }
-
-    h6{
-        color:yellow;
-    }
-   
 }
 
 /*===== TABLET LANDSCAPE =====*/
@@ -357,12 +356,6 @@ display: none;
         width:85%;
         height:auto;
     }
-
-   h6{
-        color:red;
-    }
-    
-
 }
 
 /*===== MOBILE =====*/
@@ -404,11 +397,6 @@ display: none;
         display:normal;
     }
 
-    h6{
-        color:orange; 
-    }
-     
-
 }
 
 /* APPLE 6s */
@@ -447,12 +435,6 @@ display: none;
         height:auto;
         display:normal;
     }
-
-    /*   */  
-    h6{
-        color:orange; /* MOBILE */
-    }
-     
 
 }
 
@@ -493,12 +475,6 @@ display: none;
         display:normal;
     }
 
-     
-    /*   */  
-    h6{
-        color:orange; /* MOBILE */
-    }
-     
 }
 
 
