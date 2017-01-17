@@ -525,18 +525,21 @@ display: none;
 
 table {
     border:none;
+    overflow:hidden;
 }
 
 td {
     border:none;
     padding:0px;
     margin:0px;
+    overflow:hidden;
 }
 
 tr {
     border:none;
     padding:0px;
     margin:0px;
+    overflow:hidden;
 }
 
 
