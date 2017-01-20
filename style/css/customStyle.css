@@ -112,6 +112,10 @@ a:visited {
     color:#a1e2fd;
 }
 
+#bookCall:link {
+        color:#fbb23e;
+}
+
 span {
     color:#a1e2fd;
     text-decoration:none;
@@ -123,8 +127,7 @@ span:hover {
 
 a:link:hover {
         text-decoration:underline;
-        color:#fbb23e;
-        
+        color:#fbb23e;        
 }
 
 /*= #2 CLASSES =*/
