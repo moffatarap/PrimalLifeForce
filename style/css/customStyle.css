@@ -1,1 +1,521 @@
-article,body{overflow:scroll}#spanBlue,h2{padding-bottom:.5%;padding-top:.5%}.topLevel,body{height:auto;width:100%;position:relative}body{background-color:#009ee1;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;background-size:cover}article{overflow-y:hidden;overflow-x:hidden;position:relative}h1{font-family:Oswald,sans-serif;font-weight:400;color:#fff;font-size:2.2em;line-height:1.4em;-webkit-font-smoothing:antialiased}.textSubheader h1,h2{font-size:2em;text-align:center;font-family:Oswald,sans-serif;font-weight:400;color:#fff;-webkit-font-smoothing:antialiased}a:link,a:visited,span{color:#a1e2fd}a:link:hover,span:hover{color:#fbb23e}h2{border-bottom:1px solid #a1e2fd}h3{font-family:Oswald,sans-serif;font-weight:400;color:#fff;font-size:1.5em;-webkit-font-smoothing:antialiased;text-align:center}h6{font-family:Oswald,sans-serif;font-weight:400;color:#fff}footer h6{text-align:right;margin-right:1%;position:relative;margin-top:7%}.textSubheader,.topLevel,.videoContain{text-align:center}#spanBlue{background:#006fe1}p{font-family:Raleway,sans-serif;font-weight:600;color:#fff;font-size:1.3em;padding:.5%;-webkit-font-smoothing:antialiased}a:link,span{text-decoration:none}a:link:hover{text-decoration:underline}.topLevel{z-index:1;margin-top:0;overflow:hidden}.videoContain{position:relative;z-index:3;margin-top:.2%;height:20%;width:auto}.progressContain,.textDescription,.textSubheader{position:relative;margin-top:.2%;width:100%;overflow:hidden;z-index:3;height:auto}.progressContain,.textDescription{padding-left:.5%;text-align:left}#logoIMG,#mainVideo,.textContent{text-align:center;position:relative}.testimonials{width:49%;height:auto;display:inline-table}.textContent{z-index:3;margin-top:2%;height:auto;width:100%}#contactImg{width:40%;height:auto}#logoIMG{width:78%;height:auto}#mainVideo{width:100%;height:100%}#imgProCant,#imgProFree,#imgProPrime{width:100%;height:auto}::-webkit-scrollbar{display:none}::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);border-radius:10px}::-webkit-scrollbar-thumb{border-radius:10px;-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.5)}table,td,tr{border:none;overflow:hidden}@media screen and (max-width:768px) and (orientation:portrait){h1{font-size:2em;line-height:1.3em}.textSubheader h1,h2{font-size:1.6em}h3{font-size:1.2em}p{font-size:1.1em}#logoIMG{width:91%;height:auto}}@media screen and (max-width:1024px) and (orientation:landscape){h1{font-size:2.3em;line-height:1.3em}h2{font-size:1.8em}h3{font-size:1.4em}.textSubheader h1{font-size:1.7em}p{font-size:1.2em}#logoIMG{width:85%;height:auto}}@media screen and (max-width:640px) and (orientation:portrait){h1{font-size:1.7em;line-height:1.3em}.textSubheader h1,h2{font-size:1.3em}h3{font-size:1.18em}p{font-size:1em}#logoIMG{width:95%;height:auto}.testimonials{width:100%;height:auto;display:normal}}@media screen and (max-width:400px) and (orientation:portrait){h1{font-size:1.6em;line-height:1.2em}.textSubheader h1,h2{font-size:1.35em}h3{font-size:1.2em}p{font-size:1em}#logoIMG{width:98%;height:auto}.testimonials{width:100%;height:auto;display:normal}}@media screen and (max-width:667px) and (orientation:landscape){h1{font-size:1.6em;line-height:1.2em}.textSubheader h1,h2{font-size:1.5em}h3{font-size:1.3em}p{font-size:1em}#logoIMG{width:98%;height:auto}.testimonials{width:100%;height:auto;display:normal}}.embed-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%}.embed-container embed,.embed-container iframe,.embed-container object{position:absolute;top:0;left:0;width:100%;height:100%}td,tr{padding:0;margin:0}
+/******* PRIMAL LIFE FORCE CSS *******/
+/* #1 TAGS */
+body {
+    background-color:#009ee1;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    background-attachment:fixed;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    position:relative;
+    overflow:scroll;
+
+    /* 
+    border:2px dashed orange; */
+}
+
+article {
+    overflow:scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position:relative;
+
+    /* 
+    border:2px solid pink;*/
+ }
+
+h1 { 
+    font-family: Oswald, sans-serif;
+    font-weight:400;
+    color:#ffffff;
+    font-size:2.2em;
+    line-height:1.4em; 
+    -webkit-font-smoothing: antialiased;    
+}
+
+.textSubheader h1 { 
+    font-family: Oswald, sans-serif;
+    font-weight:400;
+    color:#ffffff;
+    font-size:2em;
+   -webkit-font-smoothing: antialiased;
+    text-align:center;  
+}
+
+h2 {
+    font-family: Oswald, sans-serif;
+    font-weight:400;
+    color:#ffffff;
+    padding-bottom:0.5%;
+    padding-top:0.5%;
+    border-bottom:1px solid #a1e2fd;
+    
+    font-size:2em;
+   -webkit-font-smoothing: antialiased;
+    text-align:center;
+}
+
+h3 {
+    font-family: Oswald, sans-serif;
+    font-weight:400;
+    color:#ffffff;
+    font-size:1.5em;
+   -webkit-font-smoothing: antialiased;
+    text-align:center;
+
+}
+
+h6 {
+    font-family: Oswald, sans-serif;
+    font-weight:400;
+    color:#ffffff;
+    
+}
+
+footer h6 {
+    text-align:right;
+    margin-right:1%;
+    position:relative;
+    margin-top:7%;
+}
+
+#spanBlue {
+    padding-bottom:0.5%;
+    padding-top:0.5%;
+    background:#006fe1;
+
+}
+
+p {
+    font-family: Raleway, sans-serif;
+    font-weight:600;
+    color:#ffffff;
+    font-size:1.3em;
+    padding:0.5%;
+   -webkit-font-smoothing: antialiased;
+}
+
+
+iframe {
+    
+}
+
+
+a:link {
+    color:#a1e2fd;
+    text-decoration:none;
+}
+
+a:visited {
+    color:#a1e2fd;
+}
+
+span {
+    color:#a1e2fd;
+    text-decoration:none;
+}
+
+span:hover {
+    color:#fbb23e;
+}
+
+a:link:hover {
+        text-decoration:underline;
+        color:#fbb23e;
+        
+}
+
+/*= #2 CLASSES =*/
+
+/* #2.1 */
+.topLevel {
+    position:relative;
+    z-index:1;
+    margin-top:0%;
+    text-align:center;
+    height:auto;
+    width:100%;
+    overflow:hidden;
+
+    /* 
+    border:2px solid #b6ff00 ; */
+}
+
+/* #2.2 */
+.videoContain {
+    position:relative;
+    z-index:3;
+    margin-top:0.2%;
+    text-align:center;
+    height:20%;
+    width:auto;
+
+    /* 
+    border:2px dashed #b6ff00; */
+}
+
+.textSubheader {
+    position:relative;
+    z-index:3;
+    margin-top:0.2%;
+    text-align:center;
+    height:auto;
+    width:100%;
+    overflow:hidden;
+
+    /* 
+    border: 2px dashed #ff0000; */
+}
+
+.textDescription {
+    position:relative;
+    z-index:3;
+    margin-top:0.2%;
+    padding-left:0.5%;
+    text-align:left;
+    height:auto;
+    width:100%;
+    overflow:hidden;
+
+    /*
+    border: 2px dashed orange;  */
+}
+
+.progressContain {
+
+    position:relative;
+    z-index:3;
+    margin-top:0.2%;
+    padding-left:0.5%;
+    text-align:left;
+    height:auto;
+    width:100%;
+    overflow:hidden;
+
+    /* 
+    border: 2px solid #ffffff; */
+
+}
+
+/* #2.3 */
+.testimonials {
+    width:49%;
+    height:auto;
+    display:inline-table;
+
+    /*
+    border:2px solid purple;*/
+}
+
+/* #2.4 */
+.textContent {
+    position:relative;
+    z-index:3;
+    margin-top:2%;
+    text-align:center;
+    height:auto;
+    width:100%;
+
+    /* 
+    border: 2px dashed #ff0000; */
+}
+
+
+
+
+
+/*== #4 ID ==*/
+
+#contactImg {
+    width:40%;
+    height:auto;
+}
+
+/** IMG LOGO **/
+#logoIMG {
+    width:78%;
+    height:auto;
+    text-align:center; 
+    position:relative; 
+        
+    /*
+    border: 2px solid blue; */
+}
+
+
+#mainVideo {
+    position:relative;
+    width:100%;
+    height:100%;
+    text-align:center; 
+}
+
+#imgProPrime {
+    width:100%;
+    height:auto;
+}
+
+
+#imgProCant {
+    width:100%;
+    height:auto;
+}
+
+
+
+#imgProFree {
+    width:100%;
+    height:auto;
+}
+
+td {
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+}
+
+/* #5 WEBKIT */
+/*  HIDES SCROLL BAR ON CHROME */
+
+::-webkit-scrollbar {
+display: none;
+} 
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+/* #6 MEDIA QUERY */
+
+/*===== TABLET PORTRATE =====*/
+/* Apple Air 2 */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    
+   h1 {
+        font-size:2em;
+        line-height:1.3em;        
+    }
+    
+   h2 {
+        font-size:1.6em;
+    }
+
+   h3 {
+       font-size:1.2em;
+   }
+
+   .textSubheader h1 {
+        font-size:1.6em;        
+    }
+
+   p {
+        font-size:1.1em;
+   }
+
+    #logoIMG {
+        width:91%;
+        height:auto;
+    }
+}
+
+/*===== TABLET LANDSCAPE =====*/
+/* Apple Air 2 */
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+   
+    h1 {
+        font-size:2.3em;
+        line-height:1.3em;        
+    }
+
+    h2 {
+        font-size:1.8em;
+    }
+
+   h3 {
+       font-size:1.4em;
+   }
+
+   .textSubheader h1 {
+        font-size:1.7em;
+    }
+
+    p {
+        font-size:1.2em;
+   }
+
+    
+    #logoIMG {
+        width:85%;
+        height:auto;
+    }
+}
+
+/*===== MOBILE =====*/
+/* Nexus 7 */
+@media screen and (max-width: 640px) and (orientation: portrait) {
+    
+    h1 {
+        font-size:1.7em;
+        line-height:1.3em;        
+    }
+
+    h2 {
+        font-size:1.3em;
+    }
+
+    .textSubheader h1 {
+        font-size:1.3em;
+
+    }
+
+    h3 {
+       font-size:1.18em;
+   }
+
+
+    p {
+        font-size:1em;
+   }
+
+    #logoIMG {
+        width:95%; 
+        height:auto;
+    }
+
+   
+  .testimonials {
+        width:100%;
+        height:auto;
+        display:normal;
+    }
+
+}
+
+/* APPLE 6s */
+@media screen and (max-width: 400px) and (orientation: portrait){
+    
+    h1 {
+        font-size:1.6em;
+        line-height:1.2em;        
+    }
+
+    h2 {
+        font-size:1.35em;
+    }
+
+    h3 {
+       font-size:1.2em;
+   }
+     .textSubheader h1 {
+        font-size:1.35em;
+    }
+
+    
+    p {
+        font-size:1em;
+   }
+
+   
+
+    #logoIMG {
+        width:98%; 
+        height:auto;
+    }
+
+    .testimonials {
+        width:100%;
+        height:auto;
+        display:normal;
+    }
+
+}
+
+@media screen and (max-width: 667px) and (orientation: landscape) {
+
+    h1 {
+        font-size:1.6em;
+        line-height:1.2em;        
+    }
+
+    h2 {
+        font-size:1.5em;
+    }
+
+    h3 {
+       font-size:1.3em;
+   }
+
+     .textSubheader h1 {
+        font-size:1.5em;
+    }
+
+    
+    p {
+        font-size:1em;
+   }
+
+   
+
+    #logoIMG {
+        width:98%; 
+        height:auto;
+    }
+
+    .testimonials {
+        width:100%;
+        height:auto;
+        display:normal;
+    }
+
+}
+
+
+/* RESPONSIVE VIDEO */
+/*Source: http://embedresponsively.com */
+.embed-container {
+                    position: relative;
+                    padding-bottom: 56.25%;
+                    height: 0;
+                    overflow: hidden;
+                    max-width: 100%;
+                }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+
+
+
+
+table {
+    border:none;
+    overflow:hidden;
+}
+
+td {
+    border:none;
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+}
+
+tr {
+    border:none;
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+}
+
+
