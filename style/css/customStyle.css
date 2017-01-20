@@ -116,6 +116,10 @@ a:visited {
         color:#fbb23e;
 }
 
+#bookCall:visited {
+        color:#fbb23e;
+}
+
 span {
     color:#a1e2fd;
     text-decoration:none;
@@ -204,9 +208,10 @@ a:link:hover {
 
 /* #2.3 */
 .testimonials {
-    width:49%;
+    width:100%;
     height:auto;
     display:inline-table;
+    
 
     /*
     border:2px solid purple;*/
