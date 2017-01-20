@@ -35,6 +35,10 @@ h1 {
     -webkit-font-smoothing: antialiased;    
 }
 
+.textContent h1:first-child {
+    border-bottom:1px solid #a1e2fd;
+}
+
 .textSubheader h1 { 
     font-family: Oswald, sans-serif;
     font-weight:400;
